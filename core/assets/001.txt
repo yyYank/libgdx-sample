@@ -1,0 +1,12 @@
+001.png
+size: 402, 402
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7TZK1gqH_400x400
+  rotate: false
+  xy: 1, 1
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
