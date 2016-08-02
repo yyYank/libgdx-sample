@@ -10,7 +10,6 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 
 public class libGDXGame3 extends ApplicationAdapter {
 	SpriteBatch batch;
-	Texture texture;
 	TextureAtlas atlas;
 	
 	@Override
@@ -34,6 +33,6 @@ public class libGDXGame3 extends ApplicationAdapter {
 	@Override
 	public void dispose () {
 		batch.dispose();
-		texture.dispose();
+		atlas.dispose();
 	}
 }
