@@ -66,18 +66,23 @@ public class libGDXGame4 extends ApplicationAdapter {
 		Gdx.gl.glClearColor(0, 0, 0, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
-
 		batch.begin();
 
-
-		marugotoSprite.draw(batch);
-		fruedSprite.draw(batch);
-		masaokaShikiSprite.draw(batch);
-		goemonSprite.draw(batch);
-		shikouteiSprite.draw(batch);
-
+		// spriteたちを描画
+		drawSprites(marugotoSprite, fruedSprite, masaokaShikiSprite, goemonSprite, shikouteiSprite);
 
 		batch.end();
+	}
+
+
+	/**
+	 * めんどくさいからまとめてやりたくなるやん
+	 * @param sprites スプライトたち
+     */
+	private void drawSprites(Sprite... sprites) {
+		for (Sprite sprite : sprites) {
+			sprite.draw(batch);
+		}
 	}
 	
 	@Override
