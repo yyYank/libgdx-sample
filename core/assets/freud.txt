@@ -1,0 +1,33 @@
+freud.png
+size: 720, 180
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nigaoe_freud
+  rotate: false
+  xy: 0, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+nigaoe_ishikawa_goemon
+  rotate: false
+  xy: 180, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+nigaoe_masaoka_shiki
+  rotate: false
+  xy: 360, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+nigaoe_shikoutei
+  rotate: false
+  xy: 540, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
