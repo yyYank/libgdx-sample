@@ -54,7 +54,9 @@ public class libGDXGame5 implements ApplicationListener {
         // 多分Groupのabilityなんだと思うんだが
         // 親子関係の描画操作かな
         Group group = new Group();
-        group.setPosition(0, 200);
+        group.setPosition(150, 200);
+        group.setScale(0.5f);
+        stage.addActor(group);
 
 
         // ======= 正岡子規 ==========
@@ -65,7 +67,7 @@ public class libGDXGame5 implements ApplicationListener {
 
 
         TextureAtlas.AtlasRegion goemonRegion = atlas.findRegion("nigaoe_ishikawa_goemon");
-        Image goemonImage = new Image(masaokaRegion);
+        Image goemonImage = new Image(goemonRegion);
         goemonImage.setPosition(200, 0);
         group.addActor(goemonImage); // groupの下に追加
 
