@@ -66,6 +66,7 @@ public class libGDXGame5 implements ApplicationListener {
         group.addActor(masaokaImage); // groupの下に追加
 
 
+        // ======= 石川ゴエモン ==========
         TextureAtlas.AtlasRegion goemonRegion = atlas.findRegion("nigaoe_ishikawa_goemon");
         Image goemonImage = new Image(goemonRegion);
         goemonImage.setPosition(200, 0);
