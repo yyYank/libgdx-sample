@@ -11,7 +11,7 @@ import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 
-public class libGDXGame5 implements ApplicationListener {
+public class LibGDXGame5 implements ApplicationListener {
 
     Stage stage;
 
@@ -71,10 +71,6 @@ public class libGDXGame5 implements ApplicationListener {
         Image goemonImage = new Image(goemonRegion);
         goemonImage.setPosition(200, 0);
         group.addActor(goemonImage); // groupの下に追加
-
-
-
-
     }
 
     @Override
@@ -85,7 +81,6 @@ public class libGDXGame5 implements ApplicationListener {
     public void render() {
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         Gdx.gl.glClearColor(0, 0, 0, 1);
-
 
         stage.act(Gdx.graphics.getDeltaTime());
         stage.draw();

@@ -8,7 +8,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 
-public class libGDXGame3 extends ApplicationAdapter {
+public class LibGDXGame3 extends ApplicationAdapter {
 	SpriteBatch batch;
 	TextureAtlas atlas;
 	

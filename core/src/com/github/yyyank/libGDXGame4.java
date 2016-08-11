@@ -9,7 +9,7 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 
-public class libGDXGame4 extends ApplicationAdapter {
+public class LibGDXGame4 extends ApplicationAdapter {
 	SpriteBatch batch;
 	Sprite fruedSprite;
 	Sprite shikouteiSprite;
