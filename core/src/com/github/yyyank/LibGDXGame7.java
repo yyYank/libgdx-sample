@@ -9,7 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.github.yyyank.character.GameCharacterKt;
+import com.github.yyyank.character.GameCharacter;
 
 import java.util.Random;
 
@@ -24,7 +24,7 @@ public class LibGDXGame7 implements ApplicationListener {
 
     @Override
     public void create() {
-        atlas = GameCharacterKt.atlas();
+        atlas = GameCharacter.atlas();
         stage = new Stage();
 
         // InputProcessorがキー入力のリスナーらしい。
@@ -35,7 +35,7 @@ public class LibGDXGame7 implements ApplicationListener {
         Gdx.input.setInputProcessor(stage);
 
 
-        TextureAtlas.AtlasRegion region = atlas.findRegion(GameCharacterKt.FRUED);
+        TextureAtlas.AtlasRegion region = atlas.findRegion(GameCharacter.FRUED);
         final Image image = new Image(region);
         image.setPosition(0, 0);
         final Random random = new Random();
@@ -53,7 +53,7 @@ public class LibGDXGame7 implements ApplicationListener {
         image.addListener(listener);
         stage.addActor(image);
 
-        TextureAtlas.AtlasRegion region2 = atlas.findRegion(GameCharacterKt.GOEMON);
+        TextureAtlas.AtlasRegion region2 = atlas.findRegion(GameCharacter.GOEMON);
         final Image image2 = new Image(region2);
         image2.setPosition(200, 200);
 

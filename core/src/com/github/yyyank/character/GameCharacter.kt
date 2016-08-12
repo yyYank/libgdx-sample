@@ -1,5 +1,4 @@
-// what the fuck!!!
-//@file:JvmName("DemoUtils")
+@file:JvmName("GameCharacter")
 package com.github.yyyank.character
 
 import com.badlogic.gdx.Gdx
@@ -19,4 +18,3 @@ fun atlas() = TextureAtlas(handle())
 
 fun String.region() = atlas().findRegion(this)
 fun String.image() = Image(this.region())
-
