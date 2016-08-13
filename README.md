@@ -14,18 +14,18 @@ libGDXの勉強がてらなんやかんやするリポジトリ
 
 | 基礎 | 進捗  |  
 |-----|-------|  
-|1    | done|  
-|2    | done|  
-|3    | done|  
-|4    | done|  
-|5    | done|  
-|6    | skip|  
-|7    | done|  
-|8    | yet |  
-|9    | yet |  
-|10   | yet |  
-|11   | yet |  
-|12   | yet |  
-|13   | yet |  
-|14   | yet |  
+|1    | done  |  
+|2    | done  |  
+|3    | done  |  
+|4    | done  |  
+|5    | done  |  
+|6    | skip  |  
+|7    | done  |  
+|8    | done  |  
+|9    | yet   |  
+|10   | yet   |  
+|11   | yet   |  
+|12   | yet   |  
+|13   | yet   |  
+|14   | yet   |  
 
