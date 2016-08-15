@@ -19,7 +19,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.github.yyyank.character.GameCharacter;
 
 /**
- * http://qiita.com/shinsan68k/items/ef8aeec2a1f7724ec429
+ * http://qiita.com/shinsan68k/items/e4741270234bd699fa0d
  */
 public class LibGDXGame9 implements ApplicationListener {
 
