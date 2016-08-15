@@ -27,19 +27,6 @@ public class LibGDXGame9 implements ApplicationListener {
     Stage stage;
 
 
-    Image example = new Image() {
-        @Override
-        public void act(float delta) {
-            super.act(delta);
-
-//            if(count < 60) {
-//                setX(getX() +  1);
-//                count++;
-//            }
-        }
-    };
-
-
     @Override
     public void create() {
         atlas = GameCharacter.atlas();
