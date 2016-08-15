@@ -70,6 +70,9 @@ public class LibGDXGame9 implements ApplicationListener {
             public void clicked(InputEvent event, float x, float y) {
                 // http://otosozai.com/?se=mob
                 Sound sound = Gdx.audio.newSound(Gdx.files.internal("se_mob02.wav"));
+                // 読み込ませるwavだが、ビットレートが16以上じゃないとGdxRuntimeExceptionが発生した
+                // この辺りの話
+                // -> http://stackoverflow.com/questions/24305630/android-java-libgdx-music-sound
                 sound.play();
             }
 
