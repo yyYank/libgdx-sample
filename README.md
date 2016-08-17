@@ -23,7 +23,7 @@ libGDXの勉強がてらなんやかんやするリポジトリ
 |7    | done  |  
 |8    | done  |  
 |9    | done  |  
-|10   | yet   |  
+|10   | done  |  
 |11   | yet   |  
 |12   | yet   |  
 |13   | yet   |  
