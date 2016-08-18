@@ -5,7 +5,7 @@ import com.badlogic.gdx.utils.Array;
 import java.util.ArrayList;
 
 /**
- * http://qiita.com/shinsan68k/items/db51b2b711fd42dbace5
+ * http://qiita.com/shinsan68k/items/c0a2b596cf2ecf3cc370
  */
 public class LibGDXGame11 {
 
